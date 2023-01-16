@@ -1,4 +1,4 @@
-/* Convert a Number to a String!
+/**Convert a Number to a String!**
 
 We need a function that can transform a number (integer) into a string.
 
