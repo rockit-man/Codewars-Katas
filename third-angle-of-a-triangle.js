@@ -1,4 +1,4 @@
-/* Third Angle of a Triangle
+/**Third Angle of a Triangle**
 
 DESCRIPTION:
 You are given two interior angles (in degrees) of a triangle.

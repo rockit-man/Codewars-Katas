@@ -1,4 +1,4 @@
-/* Sentence Smash
+/**Sentence Smash**
 
 DESCRIPTION:
 

@@ -1,4 +1,4 @@
-/* A Needle in the Haystack
+/**A Needle in the Haystack**
 
 DESCRIPTION:
 Can you find the needle in the haystack?
