@@ -29,7 +29,7 @@ var ownedCatAndDog = function(catYears, dogYears) {
         typeof catYears !== 'number' ||
         typeof dogYears !== 'number' ||
         arguments.length !== 2) {
-        throw new Error('Invalid arguments. Input must be two integers.');
+        throw new Error('Invalid argument(s). Input must be two integers.');
     } else {
         let ownedCat = catYears < 15
             ? 0
