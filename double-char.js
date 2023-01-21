@@ -8,7 +8,8 @@ Examples (Input -> Output):
 * "Hello World" -> "HHeelllloo  WWoorrlldd"
 * "1234!_ "     -> "11223344!!__  "
 
-Good Luck! */
+Good Luck!
+*/
 
 // Solution:
 function doubleChar(str) {
@@ -17,4 +18,4 @@ function doubleChar(str) {
     doubleStr = doubleStr + char + char;
   }
   return doubleStr;
-};
+}

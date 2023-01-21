@@ -7,9 +7,10 @@ Write a function to return the 3rd.
 
 Note: only positive integers will be tested.
 
-https://en.wikipedia.org/wiki/Triangle */
+https://en.wikipedia.org/wiki/Triangle
+*/
 
 // Solution:
 function otherAngle(a, b) {
   return 180 - (a + b);
-};
+}

@@ -14,13 +14,14 @@ For example,
 
 The correct answer would be 17.
 
-Hint: Don't forget to check for bad values like null/undefined */
+Hint: Don't forget to check for bad values like null/undefined
+*/
 
 // Solution:
 function countSheeps(arrayOfSheep) {
   let sheepCount = 0;
   for (let i = 0; i <= arrayOfSheep.length - 1; i++) {
     arrayOfSheep[i] ? sheepCount++ : null;
-  };
+  }
   return sheepCount;
-};
+}
