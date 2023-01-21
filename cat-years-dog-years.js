@@ -28,7 +28,8 @@ References
 http://www.catster.com/cats-101/calculate-cat-age-in-cat-years
 http://www.slate.com/articles/news_and_politics/explainer/2009/05/a_dogs_life.html
 
-If you liked this Kata there is another related one here - https://www.codewars.com/kata/cat-years-dog-years-2 */
+If you liked this Kata there is another related one here - https://www.codewars.com/kata/cat-years-dog-years-2
+*/
 
 // Solution:
 const humanYearsCatYearsDogYears = (humanYears) => {
@@ -44,6 +45,6 @@ const humanYearsCatYearsDogYears = (humanYears) => {
         break;
       default:
         return [humanYears, (humanYears - 2) * 4 + 24, (humanYears - 2) * 5 + 24];
-    };
-  };
-};
+    }
+  }
+}
