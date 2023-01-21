@@ -29,17 +29,13 @@ var ownedCatAndDog = function(catYears, dogYears) {
         typeof catYears !== 'number' ||
         typeof dogYears !== 'number' ||
         arguments.length !== 2) {
-        throw new Error('Invalid arguments. Input must be two integers.');
+        throw new Error('Invalid argument(s). Input must be two integers.');
     } else {
-        let ownedCat = catYears < 15
-            ? 0
-            : catYears < 24
-            ? 1
+        let ownedCat = catYears < 15 ? 0
+            : catYears < 24 ? 1
             : 2 + (catYears - 24)/4;
-        let ownedDog = dogYears < 15
-            ? 0
-            : dogYears < 24
-            ? 1
+        let ownedDog = dogYears < 15 ? 0
+            : dogYears < 24 ? 1
             : 2 + (dogYears - 24)/5;
         return [Math.trunc(ownedCat), Math.trunc(ownedDog)];
     }
